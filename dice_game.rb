@@ -1,6 +1,6 @@
 def die_roll
-  die_1 = rand(7)
-  die_2 = rand(7)
+  die_1 = rand(1..6)
+  die_2 = rand(1..6)
   total_roll = die_1 + die_2
 end
 
